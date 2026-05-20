@@ -5,9 +5,9 @@
   "main": "server/index.js",
   "scripts": {
     "dev": "concurrently \"node server/index.js\" \"cd client && npm run dev\"",
-    "build": "cd client && npm install && npm run build",
+    "build": "cd client && npm install --include=dev && npm run build",
     "start": "NODE_ENV=production node server/index.js",
-    "vercel-build": "cd client && npm install && npm run build"
+    "vercel-build": "cd client && npm install --include=dev && npm run build"
   },
   "dependencies": {
     "concurrently": "^8.2.2",

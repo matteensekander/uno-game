@@ -35,7 +35,7 @@ export default function Lobby({ onCreateRoom, onJoinRoom, error }) {
             filter: 'drop-shadow(0 0 20px rgba(255,100,100,0.5))',
           }}
         >
-          UNO
+          Ed's UNO
         </div>
         <p className="text-gray-500 text-sm tracking-widest mt-1">MULTIPLAYER ONLINE</p>
       </div>
